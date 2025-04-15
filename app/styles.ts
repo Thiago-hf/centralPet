@@ -1,0 +1,146 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    container: {
+        display: 'flex',
+        height: '100%',
+        width: '100%',
+        backgroundColor: '#297eff',
+    },
+    header: {
+        display: 'flex',
+        flexDirection: 'column',
+        height: '20%',
+        width: '100%',
+        borderBottomLeftRadius: 20,
+        borderBottomRightRadius: 20,
+    },
+    headerGrid1: {
+        display: 'flex',
+        height: '50%',
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    headerGrid2: {
+        display: 'flex',
+        height: '50%',
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    textHeader: {
+        fontFamily: 'MontserratBold',
+        fontSize: 35,
+        color: '#fff',
+    },
+    headerButton: {
+        display: 'flex',
+        height: '60%',
+        width: '80%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 20,
+        backgroundColor: '#fff',
+    },
+    textHeaderButton: {
+        fontFamily: 'MontserratMedium',
+        textAlign: 'center',
+        color: '#297eff',
+    },
+    content:{
+        display: 'flex',
+        height: '100%',
+        width: '100%',
+        backgroundColor: '#fff',
+        borderTopLeftRadius: 20,
+        borderTopRightRadius: 20,
+        marginTop: 20,
+    },
+    modalContainer: {
+        height: '70%',
+        width: '100%',
+        backgroundColor: '#fff',
+        borderTopLeftRadius: 20,
+        borderTopRightRadius: 20,
+        padding: 20,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: -2 },
+        shadowOpacity: 0.2,
+        shadowRadius: 4,
+        elevation: 5,
+      },
+      modalContent: {
+        display: 'flex',
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        height: '10%', 
+        textAlign: 'center'
+      },
+      modalAdd: {
+        display: 'flex',
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        height: '10%', 
+        textAlign: 'center',
+        marginTop: 30,
+      },
+      modalInput:{
+        borderBottomWidth: 1,
+        borderColor: '#000',
+        width: '80%',
+      },
+      modalDate: {
+        borderRadius: 20, 
+        backgroundColor: '#297eff', 
+        height: '90%', 
+        width: '80%',
+        textAlign: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
+      },
+      modalAddButton: {
+        borderRadius: 20, 
+        backgroundColor: '#00bbe0', 
+        height: '90%', 
+        width: '80%',
+        textAlign: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
+      },
+      card: {
+        backgroundColor: '#fff',
+        margin: 10,
+        padding: 15,
+        borderRadius: 10,
+        shadowColor: '#000',
+        shadowOpacity: 0.1,
+        shadowOffset: { width: 0, height: 2 },
+        shadowRadius: 4,
+        elevation: 3,
+      },
+      cardTitle: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginBottom: 5,
+      },
+        cardButtons: {
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          marginTop: 10,
+        },
+        editButton: {
+          color: '#4CAF50',
+          fontSize: 16,
+          fontWeight: 'bold',
+        },
+        deleteButton: {
+          color: '#F44336',
+          fontSize: 16,
+          fontWeight: 'bold',
+        },
+      
+
+});
+
+export default styles;
